@@ -1,20 +1,30 @@
 # 📱 Factory System App 
-
-تطبيق Flutter يعتمد على **Hive** للتخزين المحلي، مع إدارة الحالة باستخدام **Bloc**، وتصميم واجهة حديثة باستخدام مكتبات مثل **Lottie** و **ScreenUtil**.
+تطبيق Flutter حديث يدعم:
+- **Hive** للتخزين المحلي.
+- **Localization** لتعدد اللغات.
+- **Light/Dark Theme** لتغيير المظهر.
+- إدارة الحالة باستخدام **Bloc**.
+- توليد أيقونات التطبيق باستخدام **flutter_launcher_icons**.
+- تغيير اسم التطبيق والـ Bundle ID باستخدام **rename**.
 
 ---
 
 ## 🚀 المميزات
 - تخزين البيانات محليًا باستخدام https://docs.hivedb.dev/#/.
-- إدارة الحالة باستخدام [Bloc](https://bloc.dev/#/.
-- واجهة متجاوبة مع جميع الشاشات باستخدام https://pub.dev/packages/flutter_screenutil.
-- تأثيرات جمالية مثل **Glassmorphism** و **Lottie Animations**.
+- دعم تعدد اللغات (Localization) باستخدام [intl](https://pub.dev/packages/intlضع الليلي والنهاري (Light/Dark Theme).
+- إدارة الحالة باستخدام https://bloclibrary.dev/#/.
+- توليد أيقونات التطبيق لجميع المنصات.
+- تغيير اسم التطبيق بسهولة.
 
 ---
 
 ## 📦 الحزم المستخدمة
 ```yaml
 dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   bloc: ^9.0.0
   rename: ^3.1.0
   dartz: ^0.10.1
