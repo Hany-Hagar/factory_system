@@ -1,16 +1,32 @@
-# manage_system
+# Manage System – إدارة الماكينات والعملاء
+تطبيق متعدد المنصات (Flutter) لإدارة الماكينات والعملاء في بيئة صناعية أو تجارية. يتيح تسجيل الماكينات، متابعة حالتها، إدارة العملاء، وربط كل عميل بالماكينات الخاصة به. يعتمد التطبيق على BLoC لإدارة الحالة، و Hive للتخزين المحلي السريع، مع دعم كامل لتعدد اللغات.
 
-A new Flutter project.
+## 📝 مميزات التطبيق (Features)
+- إدارة الماكينات (إضافة – تعديل – حذف – عرض تفاصيل)
+- إدارة العملاء وربطهم بالماكينات
+- متابعة حالة كل ماكينة (شغالة – تحتاج صيانة – متوقفة)
+- تخزين البيانات محليًا باستخدام Hive (Offline First)
+- دعم تعدد اللغات (Localization)
+- تصميم متجاوب لجميع الشاشات عبر Flutter ScreenUtil
+- رسوم متحركة باستخدام Lottie
+- واجهات احترافية (Glass UI)
+- بنية معمارية تعتمد على Feature-Based Architecture + BLoC
 
-## Getting Started
+## 📦 الحزم المستخدمة (Dependencies)
+### أساسية
+- flutter
+- flutter_localizations
+- bloc
+- flutter_bloc
+- hive_flutter
+- dartz
+- intl
+- lottie
+- glass
+- flutter_screenutil
 
-This project is a starting point for a Flutter application.
+### Dev
+- build_runner
+- hive_generator
+- flutter_launcher_icons
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
